@@ -1,0 +1,1 @@
+# JavaScript-Projects-Typing-Speed-Test-Solution
