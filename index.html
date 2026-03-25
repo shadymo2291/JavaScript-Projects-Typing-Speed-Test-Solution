@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Awesome CSS File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Font (Sora) File -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <!-- Start Header -->
+    <header>
+        <div class="logo"></div>
+        <div class="best_score">
+            <img src="assets/images/icon-personal-best.svg" alt="best_score">
+            <div>Personal best: <span>92</span> WPM</div>
+        </div>
+    </header>
+
+    <!-- Start Main Part -->
+    <main>
+
+        <!-- Start Info and Controls Section -->
+        <section class="info_controls">
+            <div class="info_container">
+                <div class="wpm">
+                    <span>WPM:</span>
+                    <span>0</span>
+                </div>
+                <div class="accuracy">
+                    <span>accuracy:</span>
+                    <span>0%</span>
+                </div>
+                <div class="time">
+                    <span>time:</span>
+                    <span>00:00</span>
+                </div>
+            </div>
+
+            <div class="controls_container">
+                <div class="difficulity_control">
+                    <div class="name"><span>difficulity:</span></div>
+                    <div class="difficulity_control_options">
+                        <span class="selected">easy</span>
+                        <span >medium</span>
+                        <span >hard</span>
+                    </div>
+                </div>
+                <div class="mode_control">
+                    <div class="name"><span>mode:</span></div>
+                    <div class="mode_control_options">
+                        <span class="selected">timed(60s)</span>
+                        <span >passage</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Main Text Area -->
+        <section class="text_area">
+            <div class="start_container">
+                <button class="start">Start Typing Test</button>
+                <p>Or click the text and start typing</p>
+            </div>
+
+            <div class="text active"></div>
+
+            <input type="text" class="typing_input">
+            <div class="restart_container">
+                <button class="restart">restart test <img src="assets/images/icon-restart.svg" alt="restart"></button>
+            </div>
+        </section>
+
+        <!-- Start Result  -->
+        <section class="result">
+            <div class="test_Complete">
+                <img src="assets/images/icon-completed.svg" alt="">
+                <p class="msg">Test Complete!</p>
+                <p>Solid run. Keep pushing to beat your high score.</p>
+                <div class="result_info">
+                    <div class="wpm">
+                        <span>WPM:</span>
+                        <span>0</span>
+                    </div>
+                    <div class="accuracy">
+                        <span>Acuracy:</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="character">
+                        <span>Character:</span>
+                        <div>
+                            <span class="correct">0</span>
+                            <span class="incorrect">0</span>
+                        </div>
+                    </div>
+                </div>
+                <button>go again <i class="fa-solid fa-arrow-rotate-left"></i></button>
+            </div>
+            <div class="baseline_established">
+                <img src="assets/images/icon-completed.svg" alt="completed">
+                <p class="msg">baseline established</p>
+                <p>You've set the bar.Now the real challenge begans-time to beat it.</p>
+                <div class="result_info">
+                    <div class="wpm">
+                        <span>wpm:</span>
+                        <span>0</span>
+                    </div>
+                    <div class="accuracy">
+                        <span>accuracy:</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="character">
+                        <span>character:</span>
+                        <div>
+                            <span class="correct">0/</span>
+                            <span class="incorrect">0</span>
+                        </div>
+                    </div>
+                </div>
+                <button>beat this score <i class="fa-solid fa-arrow-rotate-left"></i></button>
+            </div>
+            <div class="higher_Score">
+                <img src="assets/images/icon-new-pb.svg" alt="new">
+                <p class="msg">high score smashed!</p>
+                <p>You're getting faster.That was incredible typing.</p>
+                <div class="result_info">
+                    <div class="wpm">
+                        <span>wpm:</span>
+                        <span>0</span>
+                    </div>
+                    <div class="accuracy">
+                        <span>accuracy:</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="character">
+                        <span>character:</span>
+                        <div>
+                            <span class="correct">0/</span>
+                            <span class="incorrect">0</span>
+                        </div>
+                    </div>
+                </div>
+                <button>beat this score <i class="fa-solid fa-arrow-rotate-left"></i></button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
