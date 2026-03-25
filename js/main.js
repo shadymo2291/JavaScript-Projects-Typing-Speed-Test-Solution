@@ -114,7 +114,7 @@ let passage_mode_counter;
 
 let myRequest = new XMLHttpRequest();
 
-myRequest.open("GET", "../json/data.json");
+myRequest.open("GET", "./json/data.json");
 myRequest.send();
 myRequest.onreadystatechange = function () {
   if (myRequest.readyState === 4 && myRequest.status === 200) {
