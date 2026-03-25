@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ([https://your-solution-url.com](https://github.com/shadymo2291/JavaScript-Projects-Typing-Speed-Test-Solution))
-- Live Site URL: ( https://shadymo2291.github.io/JavaScript-Projects-Typing-Speed-Test-Solution/)
+- Solution URL:  (https://github.com/shadymo2291/JavaScript-Projects-Typing-Speed-Test-Solution))
+- Live Site URL: (https://shadymo2291.github.io/JavaScript-Projects-Typing-Speed-Test-Solution/)
 
 ## My process
 
